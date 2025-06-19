@@ -1,15 +1,15 @@
 //Домашка
-let number = prompt("Введите число")
-let diva = document.querySelector(".div_class")
+// let number = prompt("Введите число")
+// let diva = document.querySelector(".div_class")
 
-if (number >= 100){
-diva.innerHTML = number
-} else if (number < 100){
-    console.log(`Ваше число в консоли ${number}`)
-} else {
-    diva.innerHTML = "not number"
-    console.log ("Not number")
-}
+// if (number >= 100){
+// diva.innerHTML = number
+// } else if (number < 100){
+//     console.log(`Ваше число в консоли ${number}`)
+// } else {
+//     diva.innerHTML = "not number"
+//     console.log ("Not number")
+// }
 
 
 // document.getElementById("one").innerHTML = "eheh"
@@ -39,5 +39,7 @@ diva.innerHTML = number
 
 //Вопрос
 // let div = document.getElementById("one");
-// div.innerHTML = "eheh"
-// console.log(diva.value)
+// console.log(div.value)
+
+let inpt = document.querySelector(".text")
+inpt.placeholder = "hshzcs"
