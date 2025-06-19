@@ -37,9 +37,5 @@
 // }
 
 
-//Вопрос
-// let div = document.getElementById("one");
-// console.log(div.value)
-
 let inpt = document.querySelector(".text")
 inpt.placeholder = "hshzcs"
